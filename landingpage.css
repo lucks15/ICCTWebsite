@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("a3.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-size: 100vw 100vh;
+   margin: 0%;
+   height: 100vh;
+   margin: 0%;
+}
+.container{
+    display: flex;
+
+}
+.container1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.button{
+   background: none;
+   color: white;
+   border: none;
+   font-size: large;
+   font-family: "Times New Roman", Times, serif;
+   margin-left: 30px;
+   margin-right: 10px;
+   background-color: hsl(0, 0%, 95%, 0.5);
+   border-radius: 20px;
+   width: 150px;
+   height: 40px;
+   transition: 1s;
+}
+.button1{
+    background: none;
+    border: none;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    background-color: hsl(0, 0%, 95%, 0.5);
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    transition: 1s;
+}
+.button2{
+      border: none;
+      font-size: large;
+      font-family: "Times New Roman", Times, serif;
+      background-color: hsl(0, 0%, 95%, 0.5);
+      color: white;
+      border-radius: 20px;
+      margin-left: 40px;
+      width: 150px;
+      height: 40px;
+      transition: 1s;
+      
+}
+.button3{
+   border: none;
+   font-size: large;
+   font-family: "Times New Roman", Times, serif;
+   background-color: hsl(0, 0%, 95%, 0.5);
+   color: white;
+   border-radius: 20px;
+   margin-right: 40px;
+   width: 150px;
+   height: 40px;
+   transition: 1s;
+}
+button:hover{
+   scale: 1.1;
+}
+.about{
+   height: 10vh;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+.left{
+   height: 100vh;
+   width: 50vw;
+   color: white;
+
+}
+.text{
+   font-size: 120px;
+   margin-left: 200px;
+   margin-top: 100px;
+   font-family: 'Itim'
+}
+.text2{
+   font-size: 40px;
+   font-family: "Times New Roman", Times, serif;
+}
+.text3{
+   font-size: 50px;
+   font-family: 'Itim';
+   margin-left: 100px;
+   color: white;
+   text-shadow: 2px 2px 4px #000000;
+   animation-name: popup;
+   animation-timeline: view();
+   animation-range:entry 0% cover 30%;
+   animation-duration: 5s;
+}
+.textmargin{
+   margin-right: 30px;
+   font-family: kameron;
+}
+.textmargin2{
+   margin-left: 30px;
+   font-family: kameron;
+}
+.background{
+    background-image : linear-gradient(to bottom, #fae673, #ffd700);
+    height: 120vh;
+    width: 1521px;
+    background-size: contain;
+    margin-top: -175px;
+}
+.hinulugangtaktak{
+   height: 200px;
+   width: 80%;
+   display: flex;
+   animation-duration: 5s;
+   animation-name: popup;
+   animation-timeline: view();
+   animation-range:entry 0% cover 30%;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   margin: auto;
+   background-color: blue;
+   background-size: cover;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   font-size: 50px;
+   transition: 1s;
+   
+}
+.pililla{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    animation-duration: 5s;
+    animation-name: popup;
+    animation-timeline: view();
+    animation-range:entry 0% cover 30%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: blue;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+   color: white;
+   font-size: 50px;
+   transition: 1s;
+ }
+.pinto{
+   height: 200px;
+   width: 80%;
+   display: flex;
+   animation-duration: 5s;
+   animation-name: popup;
+   animation-timeline: view();
+   animation-range:entry 0% cover 20%;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   margin: auto;
+   background-color: blue;
+   background-size: cover;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   font-size: 50px;
+   transition: 1s;
+
+}
+.hinulugangtaktak:hover{
+    scale: 1.1;
+}
+.pililla:hover{
+    scale: 1.1;
+}
+.pinto:hover{
+    scale: 1.1;
+}
+@keyframes popup{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 0.9;
+        scale: 1;
+    }
+}
+
